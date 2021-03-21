@@ -9,3 +9,9 @@ do
 {
     tankolas=parseInt(prompt("Hány litert tankoltál?"));
 }while((tankolas<1) || (tankolas>50));
+
+let autok=
+{
+    evjarat:2000,
+    automarka:'BMW',
+}
