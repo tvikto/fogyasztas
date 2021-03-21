@@ -18,4 +18,4 @@ let autok=
         console.log(this.evjarat+" évjáratú "+this.automarka+" fogyasztása: "+((tankolas/km)*100).toFixed(2) +" liter/km")
     }
 }
-autok.fogyaszt();
+autok.fogyaszt()
