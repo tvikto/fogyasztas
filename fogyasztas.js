@@ -34,5 +34,11 @@ else
 }
 autok.garazs=function(utca)
 {
-    console.log(automarka+" garázsa "+utca+" utcában található");
+    console.log(this.automarka+" garázsa "+utca+" utcában található");
+}
+autok.garazs('Szabadság');
+
+for (key in autok)
+{
+    console.log(key);
 }
