@@ -15,12 +15,20 @@ let autok=
     evjarat:2000,
     automarka:'BMW',
     fogyaszt: function() {
-        console.log(this.evjarat+" évjáratú "+this.automarka+" fogyasztása: "+((tankolas/km)*100).toFixed(2) +" liter/km")
+        console.log(this.evjarat+" évjáratú "+this.automarka+" fogyasztása: "+((tankolas/km)*100).toFixed(2) +" liter/km");
     }
 }
-autok.fogyaszt()
+autok.fogyaszt();
 
 if(tankolas>20)
 {
-    console.log("Nem sajnálod az üzemanyagot!")
+    console.log("Nem sajnálod az üzemanyagot!");
+}
+if(km>700)
+{
+    console.log("Nem kellene ennyit utaznod!");
+}
+else
+{
+    console.log("Csak így tovább!");
 }
