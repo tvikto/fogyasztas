@@ -32,3 +32,7 @@ else
 {
     console.log("Csak így tovább!");
 }
+autok.garazs=function(utca)
+{
+    console.log(automarka+" garázsa "+utca+" utcában található");
+}
