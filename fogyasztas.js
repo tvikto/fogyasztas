@@ -14,4 +14,8 @@ let autok=
 {
     evjarat:2000,
     automarka:'BMW',
+    fogyaszt: function() {
+        console.log(this.evjarat+" évjáratú "+this.automarka+" fogyasztása: "+((tankolas/km)*100).toFixed(2) +" liter/km")
+    }
 }
+autok.fogyaszt();
