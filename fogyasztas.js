@@ -3,12 +3,12 @@ let tankolas;
 do
 {
     km=parseInt(prompt("Hány kilométert mentél?"));
-}while((km > 1000) && (km!=NaN));
+}while((km > 1000) || (km != Number(km)) || (km == ''));;
 
 do
 {
     tankolas=parseInt(prompt("Hány litert tankoltál?"));
-}while((tankolas<1) || (tankolas>50));
+}while((tankolas<1) || (tankolas>50) || (tankolas != Number(km)) || (tankolas == ''));
 
 let autok=
 {
