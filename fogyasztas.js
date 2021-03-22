@@ -8,7 +8,7 @@ do
 do
 {
     tankolas=parseInt(prompt("Hány litert tankoltál?"));
-}while((tankolas<1) || (tankolas>50) || (tankolas != Number(km)) || (tankolas == ''));
+}while((tankolas<1) || (tankolas>50));
 
 let autok=
 {
